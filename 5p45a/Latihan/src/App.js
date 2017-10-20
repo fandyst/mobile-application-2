@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { View } from 'react-native'
 import Mahasiswa from './js/Props01'
 import State from './js/State01'
+import HitungLuas from './js/State02'
 
 export default class App extends Component {
   render() {
@@ -14,6 +15,9 @@ export default class App extends Component {
         
         {/* Menampilkan State */}
         <State />
+
+      {/* Menampilkan Hitung Luas */}
+        <HitungLuas />
       </View>
     )
   }
