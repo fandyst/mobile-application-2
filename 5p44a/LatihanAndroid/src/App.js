@@ -7,6 +7,7 @@ import State from './js/State02'
 import Scroll from './js/Scroll03'
 import StylingInternal from './js/Styling04'
 import StylingEksternal from './js/Styling04b'
+import Nilai from './js/Rata2Nilai.js'
 
 export default class App extends Component {
   render() {
@@ -27,8 +28,10 @@ export default class App extends Component {
         {/* Menampilkan StylingInternal 
         <StylingInternal />*/}
 
-        {/* Menampilkan StylingEksternal */}
-        <StylingEksternal />
+        {/* Menampilkan StylingEksternal 
+        <StylingEksternal />*/}
+
+        <Nilai />
       </View>
     )
   }
